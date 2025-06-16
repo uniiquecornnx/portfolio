@@ -4,8 +4,8 @@ import { GithubIcon } from "../../public/icons/github";
 import { LinkIcon } from "../../public/icons/link";
 
 export const DATA = {
-  name: "Sarthak Shah",
-  initials: "SS",
+  name: "Devisha Gupta",
+  initials: "DG",
   url: "https://www.0xsarthak.xyz/",
   description: "I Code.",
   summary: `
@@ -18,30 +18,29 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
   avatarUrl: "/me.jpg",
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
     { href: "/wins", icon: TrophyIcon, label: "Wins" },
     { href: "/bookshelf", icon: Book, label: "Bookshelf" },
   ],
   contact: {
-    email: "notsarthakshah@gmail.com",
+    email: "gdevisha11@gmail.com",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Not-Sarthak/",
+        url: "https://github.com/uniiquecornnx/",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/sarthak-shah-49267b224/",
+        url: "https://www.linkedin.com/in/devisha-gupta-10a304232/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/0xSarthak13",
+        url: "https://x.com/_devisha",
         icon: Icons.x,
 
         navbar: true,
@@ -62,22 +61,22 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
   },
   work: [
     {
-      company: "Gasyard",
-      href: "https://gasyard.fi/",
+      company: "Hashed Emergent",
+      href: "https://www.hashedem.com/",
       location: "Remote",
-      title: "Full Stack Developer",
-      logoUrl: "/work/gasyard.png",
+      title: "BD Intern",
+      logoUrl: "/work/hashedEM.png",
       start: "January 2025",
       end: "May 2025",
       description:
-        "Built backend with Fastify, Docker, and PostgreSQL that handled $570K in transaction volume and processed 120K requests. Implemented cross-chain bridge routes for Hyperliquid, Movement, Monad (Testnet), and other EVM/Non-EVM integrations in Testnet and Mainnet environments. Created Gasyard Bridge Explorer using Next.js, TypeScript, Tanstack Query, Zustand, and Tailwind CSS for transaction tracking. Developed Fuelbae Agent tool for executing DeFi actions across protocols.",
+        "I was a part of their Growth team, focusing majorly on the KOL focused growth. Helping their fagship event IBW get more traction by collaborating with renowned KOLs from Inidia. Finding and curating region-specific and domain specific KOLs for our clients.",
     },
     {
-      company: "0rbit",
-      href: "https://www.0rbit.co/",
+      company: "Capx",
+      href: "https://www.capx.ai/",
       location: "Remote",
-      title: "Full Stack Developer",
-      logoUrl: "/work/0rbit.jpg",
+      title: "Growth and BD lead",
+      logoUrl: "/work/capx.png",
       start: "March 2024",
       end: "December 2024",
       description:
@@ -191,95 +190,36 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
     },
   ],
   wins: {
-    "Superteam Security Dashboard - 1st Place": {
+    "XRP Ledger APEX Hackathon - Bounty winner": {
       link: "",
       type: "hackathon",
     },
-    "Fellow @Wormhole India": {
-      link: "",
-      type: "title",
-    },
-    "Based Builder of the Year '24": {
-      link: "",
-      type: "title",
-    },
-    "Member @SuperteamIn": {
-      link: "",
-      type: "title",
-    },
-    "Player @callusfbi": {
-      link: "",
-      type: "title",
-    },
-    "ETHIndia '24 - Bounty Winner": {
+    "Aptos Winter School - Finalist": {
       link: "",
       type: "hackathon",
     },
-    "Onchain AI Fellowship - by @callusfbi - Selected": {
+    "Superteam earn - 2x bounties": {
       link: "",
       type: "hackathon",
     },
-    "EthBangkok '24 - Bounty Winner": {
+    "Dev3Pack - Member": {
       link: "",
       type: "hackathon",
     },
-    "Encode Club BTC Hackathon - 2nd Place": {
-      link: "",
-      type: "hackathon",
-    },
-    "Funding the Commons '24 Bangkok - Bounty Winner": {
-      link: "",
-      type: "hackathon",
-    },
-    "Based India '24 - Winner List": {
-      link: "",
-      type: "hackathon",
-    },
-    "Colosseum Radar Hackathon - 2x Bounties": {
-      link: "",
-      type: "hackathon",
-    },
-    "100xDevs Hackathon - Bounty": {
-      link: "",
-      type: "hackathon",
-    },
-    "Stellar Builders' Residency - 1st Place": {
-      link: "",
-      type: "hackathon",
-    },
-    "Stellar IndiaThon '24 - Infra Track": {
-      link: "",
-      type: "hackathon",
-    },
-    "NuvYuva Tinkerthon '24 - 2nd Place": {
-      link: "",
-      type: "hackathon",
-    },
-    "ITMBU Hackathon '24 - 2nd Place": {
-      link: "",
-      type: "hackathon",
-    },
-    "HackTheLeague '24 - 2x Bounties": {
-      link: "",
-      type: "hackathon",
-    },
-    "Arweave HackerHouse '1 - Runner Up": {
-      link: "",
-      type: "hackathon",
-    },
+    
   },
   books: [
     {
-      title: "Think and Grow Rich - Napoleon Hill",
+      title: "Unfinished: A Memoir - Priyanka Chopra Jonas",
     },
     {
-      title: "Before you Start Up - Pankaj Goyal",
+      title: "Ikigai - Francesc Miralles and Hector Garcia",
     },
     {
       title: "Zero to One - Peter Thiel",
     },
     {
-      title: "The 5 AM Club - Robin Sharma",
+      title: "Almanack of Naval Ravikant - Eric Jorgenson",
     },
     {
       title: "The Network State - Balaji Srinivasan",

@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog | Sarthak Shah",
-  description: "My thoughts on software development, blockchain, and more.",
+  title: "Blog | Devisha Gupta",
+  description: "My thoughts on blockchain, finance, and more.",
 }; 

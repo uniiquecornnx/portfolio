@@ -9,7 +9,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function BlogPage() {
   const posts = allBlogPosts;
-  const hashnodeBaseUrl = "https://0xsarthak.hashnode.dev";
+  const hashnodeBaseUrl = "";
 
   return (
     <section className="max-w-2xl mx-auto py-8">

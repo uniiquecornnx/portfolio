@@ -64,11 +64,11 @@ export function CommandPalette() {
           window.open("https://github.com/Not-Sarthak/portfolio", "_blank");
         } else if (e.key === "t" || e.key === "T") {
           e.preventDefault();
-          window.open("https://x.com/0xSarthak13", "_blank");
+          window.open("https://x.com/_devisha", "_blank");
         } else if (e.key === "l" || e.key === "L") {
           e.preventDefault();
           window.open(
-            "https://www.linkedin.com/in/sarthak-shah-49267b224/",
+            "https://www.linkedin.com/in/devisha-gupta-10a304232/",
             "_blank"
           );
         } else if (e.key === "g" || e.key === "G") {
@@ -84,7 +84,7 @@ export function CommandPalette() {
               window.location.href = "/wins";
             } else if (e2.key === "f" || e2.key === "F") {
               e2.preventDefault();
-              window.open("https://warpcast.com/0xSarthak", "_blank");
+              window.open("https://warpcast.com/devisha", "_blank");
             }
             document.removeEventListener("keydown", handleSecondKey);
           };
@@ -125,7 +125,7 @@ export function CommandPalette() {
   };
 
   const handleSendEmail = () => {
-    window.location.href = "mailto:notsarthakshah@gmail.com";
+    window.location.href = "mailto:gdevisha11@gmail.com";
     setOpen(false);
   };
 
@@ -148,7 +148,7 @@ export function CommandPalette() {
         icon: <TwitterIcon />,
         label: "X",
         shortcut: "T",
-        href: "https://x.com/0xSarthak13",
+        href: "https://x.com/_devisha",
       },
       {
         icon: (
@@ -168,13 +168,13 @@ export function CommandPalette() {
         ),
         label: "Warpcast",
         shortcut: "F",
-        href: "https://warpcast.com/0xSarthak",
+        href: "https://warpcast.com/devisha",
       },
       {
         icon: <Linkedin />,
         label: "LinkedIn",
         shortcut: "L",
-        href: "https://www.linkedin.com/in/sarthak-shah-49267b224/",
+        href: "https://www.linkedin.com/in/devisha-gupta-10a304232/",
       },
       {
         icon: (
@@ -195,7 +195,7 @@ export function CommandPalette() {
         ),
         label: "View Source",
         shortcut: "S",
-        href: "https://github.com/Not-Sarthak/portfolio",
+        href: "https://github.com/uniiquecornnx/portfolio",
       },
     ],
   };

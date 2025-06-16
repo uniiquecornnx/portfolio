@@ -104,7 +104,7 @@ export default function Page() {
               
             </div>
             <div className="mt-4">
-              you can just do things.
+              welcome to my page of everything i do.
             </div>
             <div className="mt-6 flex justify-center">
               <CommandPalette />
