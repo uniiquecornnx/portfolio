@@ -110,73 +110,60 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
   projects: [
     {
       Frontend: {
-        "Superteam Security Dashboard": {
+        "Kazi Pay": {
           id: 1,
           links: [
             {
-              type: "Website",
-              href: "https://st-security.vercel.app/",
-              icon: <LinkIcon className="size-9" />,
-            },
-            {
               type: "Source",
-              href: "https://github.com/Not-Sarthak/st-security",
+              href: "https://github.com/KismetKrystle/kazipay-app",
               icon: <GithubIcon className="size-9" />,
             },
           ],
           description:
-            "Superteam Security Dashboard is a one-stop place to read everything about hacks, exploits, and vulnerabilities in the Solana Ecosystem.",
+            " Kazi Pay is a Global Payroll Platform built on XRP Ledger which uses DID with integrated time-based Escrows to initiate payments from clients to freelancers in milestones. We won the in the XRP Ledger APEX Hackathon 2025",
         },
-        "Sol UI": {
+        "Kavach": {
           id: 2,
           links: [
-            {
-              type: "Website",
-              href: "https://sol-ui.vercel.app/",
-              icon: <LinkIcon className="size-9" />,
-            },
+            
             {
               type: "Source",
-              href: "https://github.com/Not-Sarthak/sol-ui",
+              href: "https://github.com/uniiquecornnx/Kavach",
               icon: <GithubIcon className="size-9" />,
             },
           ],
           description:
-            "A modern UI component library for Solana dApps, featuring customizable components native to Solana Ecosystem.",
+            "Kavach is a SOS-based app focusing on women safety, which when triggered, sends a SOS message to the user's contacts with their location and a alert to nearby police-stations with a live audio recording of the situation",
         },
-        EthMumbai: {
+        "Doubt-It": {
           id: 3,
           links: [
-            {
-              type: "Website",
-              href: "https://mumbaieth.vercel.app/",
-              icon: <LinkIcon className="size-9" />,
-            },
+            
             {
               type: "Source",
-              href: "https://github.com/Not-Sarthak/eth-mumbai",
+              href: "https://github.com/uniiquecornnx/doubt-it",
               icon: <GithubIcon className="size-9" />,
             },
           ],
           description:
-            "A website for EthMumbai with an SVG logo that changes colors based on user preferences.",
+            "It is a decentralized doubt solving mini-app which helps you build your profile as you help others with their doubts by giving out nfts as your pow, built on Aptos and was the finalistfor the Aptos winter school. ",
         },
-        "AO Calculator": {
+        "Snake-game": {
           id: 4,
           links: [
             {
               type: "Website",
-              href: "https://ao-unit-converter.ar-io.net/",
+              href: "https://snake-game-theta-olive.vercel.app/",
               icon: <LinkIcon className="size-9" />,
             },
             {
               type: "Source",
-              href: "https://github.com/Not-Sarthak/ao-unit-converter",
+              href: "https://github.com/uniiquecornnx/snake-game",
               icon: <GithubIcon className="size-9" />,
             },
           ],
           description:
-            "A unit converter for the AO ecosystem, helping developers and users convert between AO and Armstrong.",
+            "A snake game with a 90s vibe built as a farcaster mini-app",
         },
         "SendAI Dashboard": {
           id: 5,
