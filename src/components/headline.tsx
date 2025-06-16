@@ -38,7 +38,7 @@ function TextEffectWithExit() {
       variants={blurSlideVariants}
       trigger={trigger}
     >
-      gm, I'm Sarthak
+      gm, I'm Devisha
     </TextEffect>
   );
 }

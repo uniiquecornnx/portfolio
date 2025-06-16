@@ -62,7 +62,9 @@ export default function Page() {
             className="flex justify-end gap-3 pb-4"
           >
             <span className="text-muted-foreground font-light tracking-wide text-sm italic opacity-80 hover:opacity-100 transition-opacity duration-300">
-              — developer
+              my pronouns are building/shipping
+          
+
             </span>
           </BlurFade>
         </div>
@@ -76,32 +78,30 @@ export default function Page() {
             </span>{" "}
             with experience working with various{" "}
             <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-              languages, protocols, and blockchains
+              languages, and blockchains
             </span>
             .
             <div className="mt-4">
-              I've won{" "}
+            Former community and growth lead, now a full-time builder. Just 2 months into my development journey, I’ve {" "}
               <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-                ~20 hackathons
+              shipped multiple dapps 
               </span>{" "}
-              and enjoy{" "}
+              and {" "}
               <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-                contributing
+              won my first global hackathon.
               </span>{" "}
-              to open source projects. I'm a member at{" "}
+               I'm a member at{" "}
               <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-                SuperteamIn
-              </span>,{" "}
-              <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-                FBI
+                HerDAO, WinPrivacy (@winprivacy),
               </span>{" "}
-              (@callusfbi), and the {" "}
               <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-              Network School</span>, and also a{" "}
-              <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-                Wormhole Fellow
+              Dev3Pack, 
               </span>{" "}
-              .
+              and the {" "}
+              <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
+              Network School.</span>
+              
+              
             </div>
             <div className="mt-4">
               Think of this as my brain dump as I try to make sense of the world.
