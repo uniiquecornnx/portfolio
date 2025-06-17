@@ -60,10 +60,6 @@ const MailIcon = forwardRef<MailIconHandle, MailIconProps>(
       animate: {
         pathLength: 1,
         opacity: 1,
-        transition: {
-          duration: 0.5,
-          ease: 'easeInOut',
-        },
       },
     };
 
@@ -73,11 +69,6 @@ const MailIcon = forwardRef<MailIconHandle, MailIconProps>(
       },
       animate: {
         opacity: 1,
-        transition: {
-          delay: 0.3,
-          duration: 0.3,
-          ease: 'easeInOut',
-        },
       },
     };
 
@@ -111,12 +102,14 @@ const MailIcon = forwardRef<MailIconHandle, MailIconProps>(
             variants={envelopeVariants}
             initial="initial"
             animate={controls}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
           />
           <motion.path
             d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
             variants={flapVariants}
             initial="initial"
             animate={controls}
+            transition={{ delay: 0.3, duration: 0.3, ease: "easeInOut" }}
           />
         </svg>
       </div>
