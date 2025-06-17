@@ -205,6 +205,10 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
       link: "",
       type: "hackathon",
     },
+    "Smart India Hackathon'24 - Finalist": {
+      link: "",
+      type: "hackathon",
+    },
     
   },
   books: [
