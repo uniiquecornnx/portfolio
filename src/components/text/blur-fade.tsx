@@ -6,10 +6,7 @@ import { useRef } from "react";
 interface BlurFadeProps {
   children: React.ReactNode;
   className?: string;
-  variant?: {
-    hidden: { y: number };
-    visible: { y: number };
-  };
+  variant?: Variants;
   duration?: number;
   delay?: number;
   yOffset?: number;
@@ -17,6 +14,7 @@ interface BlurFadeProps {
   inViewMargin?: string;
   blur?: string;
 }
+
 const BlurFade = ({
   children,
   className,
@@ -29,7 +27,7 @@ const BlurFade = ({
   blur = "6px",
 }: BlurFadeProps) => {
   const ref = useRef(null);
-  const inViewResult = useInView(ref, { once: true, margin: inViewMargin });
+  const inViewResult = useInView(ref, { once: true, amount: 0.5 });
   const isInView = !inView || inViewResult;
   const defaultVariants: Variants = {
     hidden: { y: yOffset, opacity: 0, filter: `blur(${blur})` },
