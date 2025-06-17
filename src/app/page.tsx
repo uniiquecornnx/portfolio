@@ -62,7 +62,7 @@ export default function Page() {
             className="flex justify-end gap-3 pb-4"
           >
             <span className="text-muted-foreground font-light tracking-wide text-sm italic opacity-80 hover:opacity-100 transition-opacity duration-300">
-              my pronouns are building/shipping
+              my pronouns : building/shipping
           
 
             </span>
@@ -74,7 +74,7 @@ export default function Page() {
           <div className="prose max-w-full text-pretty font-sans text-md text-muted-foreground dark:prose-invert leading-[1.5]">
             I'm a{" "}
             <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-              full-stack developer
+              full-stack blockchain developer
             </span>{" "}
             with experience working with various{" "}
             <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
@@ -86,7 +86,7 @@ export default function Page() {
               <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
               shipped multiple dapps 
               </span>{" "}
-              and {" "}
+              and have {" "}
               <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
               won my first global hackathon.
               </span>{" "}
@@ -113,7 +113,7 @@ export default function Page() {
         </BlurFade>
       </section>
       <BlurFade delay={BLUR_FADE_DELAY}>
-            <VideoPlayer src="/sarthak-pfp.mp4" />
+            <VideoPlayer src="/devisha-pfp.mp4" />
           </BlurFade>
       <section id="projects">
         <div className="space-y-8 w-full py-6">

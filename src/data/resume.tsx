@@ -6,12 +6,12 @@ import { LinkIcon } from "../../public/icons/link";
 export const DATA = {
   name: "Devisha Gupta",
   initials: "DG",
-  url: "https://www.0xsarthak.xyz/",
+  url: "https://devisha.vercel.app",
   description: "I Code.",
   summary: `
-I'm a full-stack developer with an experience of working with various languages and blockchains.
+I'm a full-stack blockchain developer with an experience of working with various languages and blockchains.
 
-Previously, I've built various projects and won a global hackathons. I enjoy contributing to open source projects. I'm also a member at WinPrivacy(a research community)& .
+Previously, I've built various projects and won a global hackathons. I enjoy contributing to open source projects. I'm also a member at HerDAO, WinPrivacy(a research community)& Dev3Pack.
 
 Beyond code, I'm passionate about dance, playing billiards and am stepping out of my comfort zone to create both technical and non-technical content. I'm love traveling, and enjoy endless talks on finance.
 `,
@@ -64,7 +64,7 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
       company: "Hashed Emergent",
       href: "https://www.hashedem.com/",
       location: "Remote",
-      title: "BD Intern",
+      title: "BD and KOL Manager",
       logoUrl: "/work/hashedEM.png",
       start: "January 2025",
       end: "May 2025",
@@ -83,26 +83,25 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
         "Developed multiple smart contracts in Lua for the AO Ecosystem, while battle-testing 0rbit's core infrastructure and contributing to the core node. I also integrated frontend tutorials using AOConnect, showcasing 0rbit's capabilities in blog posts. Beyond code, I enhanced the documentation, converted Figma designs into functional UI components, and contributed to the website development. Additionally, I handled social media content and authored blogs and technical documentation, ensuring a better developer experience.",
     },
     {
-      company: "Pyano (now Bytebell AI)",
+      company: "Scrib3.co",
       href: "",
       location: "Remote",
-      title: "Software Developer Intern (Part-Time)",
-      logoUrl: "/work/bytebell.png",
+      title: "Growth and BD Intern",
+      logoUrl: "/work/scrib3.png",
       start: "May 2024",
       end: "June 2024",
       description:
-        "Developed a complete desktop application using Electron.js, integrating multiple LLM API endpoints into the frontend. Successfully deployed the stable release through Amazon S3 and GitHub Releases, ensuring seamless access for users.",
+        "Curated sheets for domain specific KOLs, hunting for the rates and prices of the KOLs to help our clients grow their community",
     },
     {
-      company: "D2Clytics",
+      company: "Algorand",
       href: "",
       location: "Remote",
-      title: "Frontend Developer Intern",
-      logoUrl: "/work/d2clytics.jpg",
+      title: "Regional Growth and Communtiy manager",
+      logoUrl: "/work/algorand.png",
       start: "January 2024",
-      end: "April 2024",
-      description:
-        "Developed over 35 charts using various libraries with React.js and TailwindCSS. I led the end-to-end state management process and converted more than 30 pages Figma design into functional code.",
+      end: "December 2024",
+      description: "Focusing on creating a community in my region, and onbaording them to the algorand ecosystem by hosting events, workshops and numerous hackathons. taking weekly calls with the community to ensure transparency and opportunity sharing."
     },
   ],
   openSource: [],

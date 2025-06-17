@@ -61,7 +61,7 @@ export function CommandPalette() {
           handleSendEmail();
         } else if (e.key === "s" || e.key === "S") {
           e.preventDefault();
-          window.open("https://github.com/Not-Sarthak/portfolio", "_blank");
+          window.open("https://github.com/uniiqueecornnx/portfolio/", "_blank");
         } else if (e.key === "t" || e.key === "T") {
           e.preventDefault();
           window.open("https://x.com/_devisha", "_blank");
@@ -133,12 +133,6 @@ export function CommandPalette() {
     title: "GENERAL",
     items: [
       {
-        icon: <Link2Icon />,
-        label: "Copy Link",
-        shortcut: "C",
-        action: handleCopyLink,
-      },
-      {
         icon: <MailIcon />,
         label: "Send Email",
         shortcut: "E",
@@ -149,26 +143,6 @@ export function CommandPalette() {
         label: "X",
         shortcut: "T",
         href: "https://x.com/_devisha",
-      },
-      {
-        icon: (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path d="M4 4 L7 20 L12 8 L17 20 L20 4" />
-          </svg>
-        ),
-        label: "Warpcast",
-        shortcut: "F",
-        href: "https://warpcast.com/devisha",
       },
       {
         icon: <Linkedin />,
@@ -195,7 +169,7 @@ export function CommandPalette() {
         ),
         label: "View Source",
         shortcut: "S",
-        href: "https://github.com/uniiquecornnx/portfolio",
+        href: "https://github.com/Not-Sarthak/portfolio",
       },
     ],
   };
