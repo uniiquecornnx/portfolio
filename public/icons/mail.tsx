@@ -12,6 +12,7 @@ export interface MailIconHandle {
 
 interface MailIconProps extends HTMLAttributes<HTMLDivElement> {
   size?: number;
+  className?: string;
 }
 
 const MailIcon = forwardRef<MailIconHandle, MailIconProps>(
@@ -24,10 +25,18 @@ const MailIcon = forwardRef<MailIconHandle, MailIconProps>(
 
       return {
         startAnimation: () => {
-          controls.start('animate');
+          controls.start({
+            pathLength: 1,
+            opacity: 1,
+            transition: { duration: 0.5 }
+          });
         },
         stopAnimation: () => {
-          controls.start('initial');
+          controls.start({
+            pathLength: 0,
+            opacity: 0,
+            transition: { duration: 0.5 }
+          });
         },
       };
     });
@@ -35,7 +44,11 @@ const MailIcon = forwardRef<MailIconHandle, MailIconProps>(
     const handleMouseEnter = useCallback(
       (e: React.MouseEvent<HTMLDivElement>) => {
         if (!isControlledRef.current) {
-          controls.start('animate');
+          controls.start({
+            pathLength: 1,
+            opacity: 1,
+            transition: { duration: 0.5 }
+          });
         }
         onMouseEnter?.(e);
       },
@@ -45,32 +58,16 @@ const MailIcon = forwardRef<MailIconHandle, MailIconProps>(
     const handleMouseLeave = useCallback(
       (e: React.MouseEvent<HTMLDivElement>) => {
         if (!isControlledRef.current) {
-          controls.start('initial');
+          controls.start({
+            pathLength: 0,
+            opacity: 0,
+            transition: { duration: 0.5 }
+          });
         }
         onMouseLeave?.(e);
       },
       [controls, onMouseLeave]
     );
-
-    const envelopeVariants = {
-      initial: {
-        pathLength: 0,
-        opacity: 0,
-      },
-      animate: {
-        pathLength: 1,
-        opacity: 1,
-      },
-    };
-
-    const flapVariants = {
-      initial: {
-        opacity: 0,
-      },
-      animate: {
-        opacity: 1,
-      },
-    };
 
     return (
       <div
@@ -99,17 +96,14 @@ const MailIcon = forwardRef<MailIconHandle, MailIconProps>(
             x="2"
             y="4"
             rx="2"
-            variants={envelopeVariants}
-            initial="initial"
+            initial={{ pathLength: 0, opacity: 0 }}
             animate={controls}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
           />
           <motion.path
             d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
-            variants={flapVariants}
-            initial="initial"
+            initial={{ opacity: 0 }}
             animate={controls}
-            transition={{ delay: 0.3, duration: 0.3, ease: "easeInOut" }}
+            transition={{ delay: 0.3 }}
           />
         </svg>
       </div>

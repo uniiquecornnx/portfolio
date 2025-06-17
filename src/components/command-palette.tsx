@@ -169,7 +169,7 @@ export function CommandPalette() {
         ),
         label: "View Source",
         shortcut: "S",
-        href: "https://github.com/Not-Sarthak/portfolio",
+        href: "https://github.com/uniiquecornnx/portfolio",
       },
     ],
   };
