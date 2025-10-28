@@ -3,6 +3,7 @@
 import BlurFade from "@/components/text/blur-fade";
 import { ResumeCard } from "@/components/cards/resume-card";
 import { DATA } from "@/data/resume";
+import { allBlogPosts } from "@/data/blog";
 import VideoPlayer from "@/components/ui/video";
 import TextEffectWithExit from "@/components/headline";
 import { ProjectList } from "@/components/cards/project-card";
@@ -71,49 +72,43 @@ export default function Page() {
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <div className="prose max-w-full text-pretty font-sans text-md text-muted-foreground dark:prose-invert leading-[1.5]">
-            I'm a{" "}
-            <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-              full-stack blockchain developer
+          <div  className="prose max-w-full text-pretty font-sans text-md text-muted-foreground dark:prose-invert leading-[1.5]">
+          I am a {" "} 
+            <span  className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
+              full-stack blockchain developer, with interests in ZK, Privacy, Onchain Identities 
             </span>{" "}
-            with experience working with various{" "}
-            <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-              languages, and blockchains
-            </span>
-            .
+            and everything that pushes the boundaries of what’s possible on-chain.  {" "} <br />
             <div className="mt-4">
-            Former community and growth lead, now a full-time builder. Just 2 months into my development journey, I’ve {" "}
-              <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
+            Former community, events and growth lead, now a full-time builder and researcher. I’ve   {" "}
+              <span className="font-semibold hover:text-foreground/80  text-foreground">
               shipped multiple dapps 
               </span>{" "}
-              and have {" "}
-              <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-              won my first global hackathon.
+              won a few hackathons/bounties along the way, and started sharing   {" "}
+              <span className="font-semibold hover:text-foreground/80  text-foreground">
+              guided articles and research papers
               </span>{" "}
-               I'm a member at{" "}
-              <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
-                HerDAO, WinPrivacy (@winprivacy),
+               for the community. <br /> <br /> I'm a member at{" "}
+              <span className="font-semibold hover:text-foreground/80 text-foreground">
+                WinPrivacy (@winprivacy), 
               </span>{" "}
-              <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
+              <span className="font-semibold hover:text-foreground/80 text-foreground">
               Dev3Pack, 
               </span>{" "}
               and the {" "}
-              <span className="font-semibold hover:text-foreground/80 cursor-pointer text-foreground">
+              <span className="font-semibold hover:text-foreground/80 text-foreground">
               Network School.</span>
               
               
-            </div>
-            <div className="mt-4">
+            </div><br />
+            <div className="mt-4 italic"  >
               welcome to my page of everything i do.
             </div>
-            <div className="mt-6 flex justify-center">
-              <CommandPalette />
-            </div>
+            
           </div>
         </BlurFade>
       </section>
       <BlurFade delay={BLUR_FADE_DELAY}>
-            <VideoPlayer src="/devisha-pfp.mp4" />
+            <VideoPlayer src="/devisha-pfp.mp4" autoPlay={true} loop={true} />
           </BlurFade>
       <section id="projects">
         <div className="space-y-8 w-full py-6">
@@ -148,6 +143,41 @@ export default function Page() {
               <ProjectList projects={getAllProjects()} />
             </div>
           </BlurFade>
+        </div>
+      </section>
+      <section id="wins" className="pt-20">
+        <div className="flex min-h-0 flex-col justify-center items-center gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="justify-center flex w-32 rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+              Articles
+            </div>
+          </BlurFade>
+
+          <BlurFade delay={BLUR_FADE_DELAY * 13.5}>
+            <p className="text-muted-foreground text-sm text-center mt-2">
+              Some of my blogs and articles.
+            </p>
+          </BlurFade>
+
+          <div className="pt-4 flex flex-col gap-y-2 border-t border-border/40 w-full">
+            {allBlogPosts
+              .slice(0, 5)
+              .map((post, id) => (
+                <BlurFade key={post.id} delay={BLUR_FADE_DELAY * 14 + id * 0.05}>
+                  <HackathonCard
+                    key={post.id}
+                    title={post.title}
+                    href={post.url || `/blog${post.slug}`}
+                  />
+                </BlurFade>
+              ))}
+
+            <BlurFade delay={BLUR_FADE_DELAY * 15}>
+              <div className="flex relative justify-center mt-4">
+                
+              </div>
+            </BlurFade>
+          </div>
         </div>
       </section>
       <section id="work" className="pt-20">
@@ -220,6 +250,7 @@ export default function Page() {
               ))}
 
             <BlurFade delay={BLUR_FADE_DELAY * 15}>
+              
               <div className="flex relative justify-center mt-4">
                 <a
                   href="/wins"
@@ -228,10 +259,16 @@ export default function Page() {
                   View All Wins
                 </a>
               </div>
+              <br />
+
+              
             </BlurFade>
           </div>
         </div>
       </section>
+      <div className="mt-6 flex justify-center">
+              <CommandPalette />
+            </div>
       <section id="footer" className="pt-20">
         <Footer />
       </section>

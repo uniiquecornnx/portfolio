@@ -3,25 +3,29 @@ export interface BlogPost {
     title: string;
     publishedAt: string;
     slug: string;
+    url?: string; // Optional Substack URL
   }
   
   export const allBlogPosts: BlogPost[] = [
     {
       id: 3,
-      title: "The In(Complete) Guide to Jito",
-      publishedAt: "Mar 10, 2025",
-      slug: "/the-incomplete-guide-to-jito",
+      title: "The Only ZK Deep-Dive You'll Ever Need",
+      publishedAt: "Oct 8, 2025",
+      slug: "/the-only-zk-deep-dive-youll-ever",
+      url: "https://uniiquecornnx.substack.com/p/the-only-zk-deep-dive-youll-ever", 
     },
     {
       id: 2,
-      title: "tcp/ip life",
-      publishedAt: "Feb 25, 2025",
-      slug: "/tcpip-life",
+      title: "ZK-SNARKS vs ZK-STARKS, Po-tay-to Po-tah-to? Not quite",
+      publishedAt: "Oct 17, 2025",
+      slug: "/zk-snarks-vs-zk-starks-potayto-potahto",
+      url: "https://uniiquecornnx.substack.com/p/zk-snarks-vs-zk-starks-potayto-potahto", 
     },
     {
       id: 1,
-      title: "Engineering Onchain AI Agents",
-      publishedAt: "Dec 17, 2024",
-      slug: "/onchain-ai-agents",
+      title: "A day in the life of an Ethereum transaction",
+      publishedAt: "Aug 3, 2025",
+      slug: "/a-day-in-the-life-of-an-ethereum",
+      url: "https://uniiquecornnx.substack.com/p/a-day-in-the-life-of-an-ethereum", 
     },
   ];
