@@ -110,6 +110,41 @@ export default function Page() {
       <BlurFade delay={BLUR_FADE_DELAY}>
             <VideoPlayer src="/devisha-pfp.mp4" autoPlay={true} loop={true} />
           </BlurFade>
+          <section id="wins" className="pt-20">
+        <div className="flex min-h-0 flex-col justify-center items-center gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 13}>
+            <div className="justify-center flex w-32 rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+              Articles
+            </div>
+          </BlurFade>
+
+          <BlurFade delay={BLUR_FADE_DELAY * 13.5}>
+            <p className="text-muted-foreground text-sm text-center mt-2">
+              Some of my blogs and articles.
+            </p>
+          </BlurFade>
+
+          <div className="pt-4 flex flex-col gap-y-2 border-t border-border/40 w-full">
+            {allBlogPosts
+              .slice(0, 5)
+              .map((post, id) => (
+                <BlurFade key={post.id} delay={BLUR_FADE_DELAY * 14 + id * 0.05}>
+                  <HackathonCard
+                    key={post.id}
+                    title={post.title}
+                    href={post.url || `/blog${post.slug}`}
+                  />
+                </BlurFade>
+              ))}
+
+            <BlurFade delay={BLUR_FADE_DELAY * 15}>
+              <div className="flex relative justify-center mt-4">
+                
+              </div>
+            </BlurFade>
+          </div>
+        </div>
+      </section>
       <section id="projects">
         <div className="space-y-8 w-full py-6">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -145,41 +180,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
-      <section id="wins" className="pt-20">
-        <div className="flex min-h-0 flex-col justify-center items-center gap-y-3">
-          <BlurFade delay={BLUR_FADE_DELAY * 13}>
-            <div className="justify-center flex w-32 rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-              Articles
-            </div>
-          </BlurFade>
-
-          <BlurFade delay={BLUR_FADE_DELAY * 13.5}>
-            <p className="text-muted-foreground text-sm text-center mt-2">
-              Some of my blogs and articles.
-            </p>
-          </BlurFade>
-
-          <div className="pt-4 flex flex-col gap-y-2 border-t border-border/40 w-full">
-            {allBlogPosts
-              .slice(0, 5)
-              .map((post, id) => (
-                <BlurFade key={post.id} delay={BLUR_FADE_DELAY * 14 + id * 0.05}>
-                  <HackathonCard
-                    key={post.id}
-                    title={post.title}
-                    href={post.url || `/blog${post.slug}`}
-                  />
-                </BlurFade>
-              ))}
-
-            <BlurFade delay={BLUR_FADE_DELAY * 15}>
-              <div className="flex relative justify-center mt-4">
-                
-              </div>
-            </BlurFade>
-          </div>
-        </div>
-      </section>
+      
       <section id="work" className="pt-20">
         <div className="flex min-h-0 flex-col justify-center items-center gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>

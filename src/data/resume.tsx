@@ -47,7 +47,7 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
       },
       resume: {
         name: "Download Resume",
-        url: "/resume.pdf",
+        url: "https://www.canva.com/design/DAGfYvk80nY/1S7kfFIuHwMbNpiNESPFXw/edit?utm_content=DAGfYvk80nY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         icon: Icons.work,
         navbar: true,
       },
@@ -61,15 +61,26 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
   },
   work: [
     {
+      company: "rLoop",
+      href: "https://www.rloop.org/",
+      location: "Remote",
+      title: "Developer Relations",
+      logoUrl: "/work/rloop.png",
+      start: "July 2025",
+      end: "October 2025",
+      description:
+        "Bridged the gap between developers and the platform writing clear documentation, building technical demos, and onboarding new developers to our ecosystem. I organized community events, workshops, and hackathons to drive engagement, gather feedback, and help devs integrate GPU resources seamlessly into their projects. My role blends technical advocacy, education, and community building to grow and support the developer ecosystem.",
+    },
+    {
       company: "Hashed Emergent",
       href: "https://www.hashedem.com/",
       location: "Remote",
-      title: "BD and KOL Manager",
+      title: "Events and BD Manager",
       logoUrl: "/work/hashedEM.png",
       start: "January 2025",
       end: "May 2025",
       description:
-        "I was a part of their Growth team, focusing majorly on the KOL focused growth. Helping their fagship event IBW get more traction by collaborating with renowned KOLs from Inidia. Finding and curating region-specific and domain specific KOLs for our clients.",
+        "I was a part of their Growth team, focusing majorly on the KOL event management and BD, helping bring flagship events like Indian Blockchain Week (IBW2024) to life. I handled everything from planning and promotions to onboarding creators. From packed panels to after-hours meetups, I focused on creating experiences that helped people connect, collaborate, and grow in the space.",
     },
     {
       company: "Capx",
@@ -80,7 +91,7 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
       start: "March 2024",
       end: "December 2024",
       description:
-        "Developed multiple smart contracts in Lua for the AO Ecosystem, while battle-testing 0rbit's core infrastructure and contributing to the core node. I also integrated frontend tutorials using AOConnect, showcasing 0rbit's capabilities in blog posts. Beyond code, I enhanced the documentation, converted Figma designs into functional UI components, and contributed to the website development. Additionally, I handled social media content and authored blogs and technical documentation, ensuring a better developer experience.",
+        "I worked on scaling developer and community engagement across the globe — from South America and Africa to the SEA region, Thailand, and Europe. My role involved hosting both virtual and IRL events to onboard developers, showcase the Capx ecosystem, and build long-term relationships with builders. I also led developer onboarding activations, helping new devs get hands-on with Capx tools and integrations while ensuring their experience felt seamless and collaborative. Whether it was running global hackathons or intimate community sessions, I focused on turning events into entry points for real adoption and developer growth.",
     },
     {
       company: "Scrib3.co",
@@ -91,7 +102,7 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
       start: "May 2024",
       end: "June 2024",
       description:
-        "Curated sheets for domain specific KOLs, hunting for the rates and prices of the KOLs to help our clients grow their community",
+        "I worked closely with creators and KOLs across some of the most active crypto regions including India, Dubai, Singapore, Nigeria, and LATAM. My role focused on building and nurturing relationships with key voices in the space, helping with the brand collaborations. Curated sheets for domain specific KOLs, hunting for the rates and prices of the KOLs to help our clients grow their community",
     },
     {
       company: "Algorand",
@@ -101,7 +112,7 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
       logoUrl: "/work/algorand.png",
       start: "January 2024",
       end: "December 2024",
-      description: "Focusing on creating a community in my region, and onbaording them to the algorand ecosystem by hosting events, workshops and numerous hackathons. taking weekly calls with the community to ensure transparency and opportunity sharing."
+      description: "I started a blockchain club in my university with almost 80 active members to help them explore and build on the Algorand ecosystem. I led workshops and weekly sessions with Algorand devs, helping students understand how to develop real-world projects on-chain. I handled all the event operations from planning and outreach to execution for hackathons, dev meetups, and other blockchain events on campus."
     },
   ],
   openSource: [],
@@ -149,11 +160,7 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
         "Snake-game": {
           id: 4,
           links: [
-            {
-              type: "Website",
-              href: "https://snake-game-theta-olive.vercel.app/",
-              icon: <LinkIcon className="size-9" />,
-            },
+            
             {
               type: "Source",
               href: "https://github.com/uniiquecornnx/snake-game",
@@ -162,6 +169,18 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
           ],
           description:
             "A snake game with a 90s vibe built as a farcaster mini-app",
+        },
+        "Chat-and-Predict": {
+          id: 5,
+          links: [
+            {
+              type: "Source",
+              href: "https://github.com/uniiquecornnx/chat-and-predict", 
+              icon: <GithubIcon className="size-9" />,
+            },
+          ],
+          description:
+            "Chat and Predict is an AI-powered application for real-time chat interactions and predictive analytics.",
         },
       },
       Backend: {
@@ -201,11 +220,15 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
       link: "",
       type: "hackathon",
     },
-    "Dev3Pack - Member": {
+    "Ethereum Devcon Scholarship Winner": {
+      link: "",
+      type: "scholarship",
+    },
+    "Smart India Hackathon'24 - Finalist": {
       link: "",
       type: "hackathon",
     },
-    "Smart India Hackathon'24 - Finalist": {
+    "Dev3Pack - Member": {
       link: "",
       type: "hackathon",
     },
@@ -226,6 +249,19 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
     },
     {
       title: "The Network State - Balaji Srinivasan",
+    },
+    {
+      title: "Make Something Wonderful - Steve Jobs",
+    },
+    {
+      title: "Antifragile - Nassim Nicholas Taleb",
+      status: "currently reading",
+    },
+    {
+      title: "Skin in the Game - Nassim Nicholas Taleb",
+    },
+    {
+      title: "The Beginning of Infinity - David Deutsch",
     },
   ],
 } as const;

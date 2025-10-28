@@ -28,7 +28,7 @@ export default function BookshelfPage() {
 
       <BlurFade delay={BLUR_FADE_DELAY * 3}>
         <p className="text-muted-foreground">
-          A collection of books I've read.
+          A collection of books I've read and would recommend.
         </p>
       </BlurFade>
 
@@ -36,12 +36,13 @@ export default function BookshelfPage() {
         "flex flex-col gap-y-2 border-t border-border/40 w-full",
       )}>
         {DATA.books.length > 0 ? (
-          DATA.books.map(({ title }, id, array) => (
-            <BlurFade key={title} delay={BLUR_FADE_DELAY * 4 + id * 0.05}>
+          DATA.books.map((book, id, array) => (
+            <BlurFade key={book.title} delay={BLUR_FADE_DELAY * 4 + id * 0.05}>
               <BookCard
-                key={title}
-                title={title}
+                key={book.title}
+                title={book.title}
                 isLastBook={id === array.length - 1}
+                status={(book as any).status}
               />
             </BlurFade>
           ))
