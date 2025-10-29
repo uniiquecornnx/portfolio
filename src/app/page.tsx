@@ -81,7 +81,7 @@ export default function Page() {
             <div className="mt-4">
             Former community, events and growth lead, now a full-time builder and researcher. I’ve   {" "}
               <span className="font-semibold hover:text-foreground/80  text-foreground">
-              shipped multiple dapps 
+              shipped 5+ dapps 
               </span>{" "}
               won a few hackathons/bounties along the way, and started sharing   {" "}
               <span className="font-semibold hover:text-foreground/80  text-foreground">
