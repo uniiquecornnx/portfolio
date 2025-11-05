@@ -233,6 +233,10 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
       link: "https://x.com/_devisha/status/1983634821462335781",
       type: "scholarship",
     },
+    "Rootstock Smart Contract Development guided tutorial - Bounty winner": {
+      link: "https://www.youtube.com/watch?v=7ps52dwWQkk",
+      type: "hackathon",
+    },
     "Aptos Winter School - Finalist": {
       link: "",
       type: "hackathon",
