@@ -119,8 +119,21 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
   projects: [
     {
       Frontend: {
-        "Kazi Pay": {
+        "Null-ID": {
           id: 1,
+          links: [
+            
+            {
+              type: "Source",
+              href: "https://github.com/cadalt0/NULLID-ZKVERIFY",
+              icon: <GithubIcon className="size-9" />,
+            },
+          ],
+          description:
+            "Null-ID is a zero-knowledge proof based identity verification system for Web3, built on zkVerify, that helps users verify their identity without revealing any personal information",
+        },
+        "Kazi Pay": {
+          id: 2,
           links: [
             {
               type: "Source",
@@ -132,7 +145,7 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
             " Kazi Pay is a Global Payroll Platform built on XRP Ledger which uses DID with integrated time-based Escrows to initiate payments from clients to freelancers in milestones. We won the in the XRP Ledger APEX Hackathon 2025",
         },
         "Kavach": {
-          id: 2,
+          id: 3,
           links: [
             
             {
@@ -145,7 +158,7 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
             "Kavach is a SOS-based app focusing on women safety, which when triggered, sends a SOS message to the user's contacts with their location and a alert to nearby police-stations with a live audio recording of the situation",
         },
         "Doubt-It": {
-          id: 3,
+          id: 4,
           links: [
             
             {
@@ -158,7 +171,7 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
             "It is a decentralized doubt solving mini-app which helps you build your profile as you help others with their doubts by giving out nfts as your pow, built on Aptos and was the finalistfor the Aptos winter school. ",
         },
         "Snake-game": {
-          id: 4,
+          id: 5,
           links: [
             
             {
@@ -171,7 +184,7 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
             "A snake game with a 90s vibe built as a farcaster mini-app",
         },
         "Chat-and-Predict": {
-          id: 5,
+          id: 6,
           links: [
             {
               type: "Source",
@@ -185,7 +198,7 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
       },
       Backend: {
         "Beat-Bera": {
-          id: 1,
+          id: 7,
           links: [
             {
               type: "Source",
@@ -208,9 +221,17 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
     },
   ],
   wins: {
-    "XRP Ledger APEX Hackathon - Bounty winner": {
-      link: "",
+    "Null-ID - 2nd place winner": {
+      link: "https://x.com/phalanetwork/status/1972795647796588675?s=46",
       type: "hackathon",
+    },
+    "XRP Ledger APEX Hackathon - Bounty winner": {
+      link: "https://x.com/_devisha/status/1932164927298662630",
+      type: "hackathon",
+    },
+    "Ethereum Devcon Scholarship Winner": {
+      link: "https://x.com/_devisha/status/1983634821462335781",
+      type: "scholarship",
     },
     "Aptos Winter School - Finalist": {
       link: "",
@@ -219,10 +240,6 @@ Beyond code, I'm passionate about dance, playing billiards and am stepping out o
     "Superteam earn - 2x bounties": {
       link: "",
       type: "hackathon",
-    },
-    "Ethereum Devcon Scholarship Winner": {
-      link: "",
-      type: "scholarship",
     },
     "Smart India Hackathon'24 - Finalist": {
       link: "",
